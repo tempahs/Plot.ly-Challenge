@@ -6,7 +6,7 @@ function optionChanged(selectedID){
  
     // Read the json file for the data
     d3.json("data/samples.json").then((data) => {
- 
+      
    //  console.log(data);
  
     // Clears dropdown
